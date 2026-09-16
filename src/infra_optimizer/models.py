@@ -7,7 +7,7 @@ from pydantic import BaseModel, StringConstraints
 Severity = Literal["low", "medium", "high"]
 ServiceName = Literal["database", "api_gateway", "cache"]
 ServiceStatus = Literal["online", "degraded", "offline"]
-# Le timestamp doit être au format ISO 8601
+# Regex pour valider le timestamp UTC ISO 8601
 IsoUtcTimestamp = Annotated[str, StringConstraints(pattern=r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")]
 
 class Anomaly(BaseModel):

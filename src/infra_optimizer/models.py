@@ -1,12 +1,14 @@
 """Contrats de données du rapport d'analyse (schéma de sortie de l'énoncé)."""
-from typing import Literal
+from typing import Annotated, Literal
 
-from pydantic import BaseModel
+from pydantic import BaseModel, StringConstraints
 
 
 Severity = Literal["low", "medium", "high"]
 ServiceName = Literal["database", "api_gateway", "cache"]
 ServiceStatus = Literal["online", "degraded", "offline"]
+# Le timestamp doit être au format ISO 8601
+IsoUtcTimestamp = Annotated[str, StringConstraints(pattern=r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")]
 
 class Anomaly(BaseModel):
     metric: str
@@ -39,7 +41,8 @@ class ServiceStatusSummary(BaseModel):
     offline: list[ServiceName]
 
 class MetricRecord(BaseModel):
-    timestamp: str
+    # On force le timestamp à être au format ISO 8601
+    timestamp: IsoUtcTimestamp
     cpu_usage: float
     memory_usage: float
     latency_ms: float
@@ -57,7 +60,8 @@ class MetricRecord(BaseModel):
 
 
 class Report(BaseModel):
-    timestamp: str
+    # On force le timestamp à être au format ISO 8601
+    timestamp: IsoUtcTimestamp
     insights: Insights
     anomalies: list[Anomaly]
     recommendations: list[Recommendation]

@@ -1,0 +1,3283 @@
+{
+  "timestamp": "2023-10-11T21:30:00Z",
+  "insights": {
+    "average_latency_ms": 156.018,
+    "max_cpu_usage": 99.0,
+    "max_memory_usage": 92.0,
+    "error_rate": 0.031580000000000004,
+    "uptime_seconds": 1258200.0
+  },
+  "anomalies": [
+    {
+      "metric": "cpu_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 93% au 2023-10-01T12:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 334.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 334 ms au 2023-10-01T12:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-01T12:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 84.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 84°C au 2023-10-01T12:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 86.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 86% au 2023-10-01T12:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 89% au 2023-10-01T12:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 12.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 12 au 2023-10-01T12:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 98% au 2023-10-01T22:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 368.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 368 ms au 2023-10-01T22:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-01T22:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 86.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 86°C au 2023-10-01T22:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 88.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 88% au 2023-10-01T22:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 90% au 2023-10-01T22:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 14 au 2023-10-01T22:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 93% au 2023-10-02T03:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 369.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 369 ms au 2023-10-02T03:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-02T03:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 88.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 88°C au 2023-10-02T03:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 87.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 87% au 2023-10-02T03:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 88.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 88% au 2023-10-02T03:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-02T03:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 97.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 97% au 2023-10-02T08:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 355.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 355 ms au 2023-10-02T08:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-02T08:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 85.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 85°C au 2023-10-02T08:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 91% au 2023-10-02T08:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 89% au 2023-10-02T08:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 11.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 11 au 2023-10-02T08:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 99.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 99% au 2023-10-02T13:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 327.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 327 ms au 2023-10-02T13:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-02T13:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 87°C au 2023-10-02T13:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 92% au 2023-10-02T13:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 92% au 2023-10-02T13:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 98% au 2023-10-02T18:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 380.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 380 ms au 2023-10-02T18:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-02T18:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 88.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 88°C au 2023-10-02T18:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 88.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 88% au 2023-10-02T18:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 90% au 2023-10-02T18:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-02T18:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 97.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 97% au 2023-10-02T23:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 349.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 349 ms au 2023-10-02T23:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-02T23:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 83.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 83°C au 2023-10-02T23:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 89% au 2023-10-02T23:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 93% au 2023-10-03T04:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 369.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 369 ms au 2023-10-03T04:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-03T04:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 85.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 85°C au 2023-10-03T04:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 87.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 87% au 2023-10-03T04:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 90% au 2023-10-03T04:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 12.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 12 au 2023-10-03T04:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 93% au 2023-10-03T09:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 381.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 381 ms au 2023-10-03T09:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-03T09:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 88.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 88°C au 2023-10-03T09:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 92% au 2023-10-03T09:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 92% au 2023-10-03T09:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 11.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 11 au 2023-10-03T09:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 91% au 2023-10-03T14:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 384.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 384 ms au 2023-10-03T14:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-03T14:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 89.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 89°C au 2023-10-03T14:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 94% au 2023-10-03T14:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 98% au 2023-10-03T19:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 367.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 367 ms au 2023-10-03T19:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-03T19:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 85.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 85°C au 2023-10-03T19:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 89% au 2023-10-03T19:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 91% au 2023-10-03T19:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-03T19:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 93% au 2023-10-04T00:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 331.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 331 ms au 2023-10-04T00:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-04T00:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 89.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 89°C au 2023-10-04T00:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 87.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 87% au 2023-10-04T00:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 91% au 2023-10-04T00:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 11.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 11 au 2023-10-04T00:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 94% au 2023-10-04T05:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 331.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 331 ms au 2023-10-04T05:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-04T05:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 82.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 82°C au 2023-10-04T05:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 92% au 2023-10-04T05:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 90% au 2023-10-04T05:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 12.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 12 au 2023-10-04T05:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 99.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 99% au 2023-10-04T10:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 333.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 333 ms au 2023-10-04T10:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-04T10:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 82.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 82°C au 2023-10-04T10:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 88.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 88% au 2023-10-04T10:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 98% au 2023-10-04T15:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 374.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 374 ms au 2023-10-04T15:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-04T15:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 82.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 82°C au 2023-10-04T15:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 90% au 2023-10-04T15:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-04T15:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 93% au 2023-10-04T20:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 377.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 377 ms au 2023-10-04T20:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-04T20:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 81.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 81°C au 2023-10-04T20:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 91% au 2023-10-04T20:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 95% au 2023-10-05T01:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 346.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 346 ms au 2023-10-05T01:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-05T01:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 82.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 82°C au 2023-10-05T01:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 91% au 2023-10-05T01:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 90% au 2023-10-05T01:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 14 au 2023-10-05T01:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 97.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 97% au 2023-10-05T06:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 331.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 331 ms au 2023-10-05T06:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-05T06:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 84.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 84°C au 2023-10-05T06:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 90% au 2023-10-05T06:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 89% au 2023-10-05T06:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 12.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 12 au 2023-10-05T06:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 94% au 2023-10-05T11:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 345.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 345 ms au 2023-10-05T11:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-05T11:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 82.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 82°C au 2023-10-05T11:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 89% au 2023-10-05T11:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 96.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 96% au 2023-10-05T11:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 95% au 2023-10-05T16:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 325.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 325 ms au 2023-10-05T16:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-05T16:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 82.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 82°C au 2023-10-05T16:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 87.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 87% au 2023-10-05T16:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 14 au 2023-10-05T16:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 93% au 2023-10-05T21:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 347.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 347 ms au 2023-10-05T21:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-05T21:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 85.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 85°C au 2023-10-05T21:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 86.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 86% au 2023-10-05T21:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 97.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 97% au 2023-10-05T21:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 12.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 12 au 2023-10-05T21:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 94% au 2023-10-06T02:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 355.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 355 ms au 2023-10-06T02:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-06T02:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 88.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 88°C au 2023-10-06T02:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 91% au 2023-10-06T02:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 92% au 2023-10-06T02:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-06T02:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 95% au 2023-10-06T07:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 344.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 344 ms au 2023-10-06T07:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-06T07:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 89.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 89°C au 2023-10-06T07:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 92% au 2023-10-06T07:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 95% au 2023-10-06T07:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 92% au 2023-10-06T12:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 324.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 324 ms au 2023-10-06T12:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-06T12:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 82.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 82°C au 2023-10-06T12:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 89% au 2023-10-06T12:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 91% au 2023-10-06T12:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 12.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 12 au 2023-10-06T12:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 94% au 2023-10-06T17:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 320.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 320 ms au 2023-10-06T17:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-06T17:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 87°C au 2023-10-06T17:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 89% au 2023-10-06T17:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 92% au 2023-10-06T17:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 98% au 2023-10-06T22:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 319.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 319 ms au 2023-10-06T22:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-06T22:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 84.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 84°C au 2023-10-06T22:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 90% au 2023-10-06T22:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 90% au 2023-10-06T22:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 14 au 2023-10-06T22:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 98% au 2023-10-07T03:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 350.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 350 ms au 2023-10-07T03:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-07T03:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 85.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 85°C au 2023-10-07T03:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 89% au 2023-10-07T03:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 95% au 2023-10-07T03:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 91% au 2023-10-07T08:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 327.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 327 ms au 2023-10-07T08:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-07T08:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 87°C au 2023-10-07T08:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 87.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 87% au 2023-10-07T08:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 90% au 2023-10-07T08:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 14 au 2023-10-07T08:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 93% au 2023-10-07T13:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 342.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 342 ms au 2023-10-07T13:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-07T13:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 88.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 88°C au 2023-10-07T13:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 92% au 2023-10-07T13:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 95% au 2023-10-07T13:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-07T13:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 94% au 2023-10-07T18:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 319.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 319 ms au 2023-10-07T18:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-07T18:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 84.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 84°C au 2023-10-07T18:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 91% au 2023-10-07T18:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 89% au 2023-10-07T18:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-07T18:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 96.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 96% au 2023-10-07T23:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 319.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 319 ms au 2023-10-07T23:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-07T23:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 82.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 82°C au 2023-10-07T23:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 87.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 87% au 2023-10-07T23:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 93% au 2023-10-07T23:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 96.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 96% au 2023-10-08T04:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 336.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 336 ms au 2023-10-08T04:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-08T04:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 83.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 83°C au 2023-10-08T04:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 92% au 2023-10-08T04:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 92% au 2023-10-08T04:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-08T04:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 92% au 2023-10-08T09:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 345.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 345 ms au 2023-10-08T09:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-08T09:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 85.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 85°C au 2023-10-08T09:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 90% au 2023-10-08T09:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 89% au 2023-10-08T09:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 11.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 11 au 2023-10-08T09:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 95% au 2023-10-08T14:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 382.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 382 ms au 2023-10-08T14:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-08T14:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 81.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 81°C au 2023-10-08T14:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 94% au 2023-10-08T14:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 11.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 11 au 2023-10-08T14:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 96.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 96% au 2023-10-08T19:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 318.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 318 ms au 2023-10-08T19:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-08T19:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 87°C au 2023-10-08T19:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 91% au 2023-10-08T19:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 91% au 2023-10-08T19:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 12.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 12 au 2023-10-08T19:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 96.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 96% au 2023-10-09T00:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 340.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 340 ms au 2023-10-09T00:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-09T00:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 85.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 85°C au 2023-10-09T00:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 87.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 87% au 2023-10-09T00:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 88.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 88% au 2023-10-09T00:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 14.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 14 au 2023-10-09T00:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 93% au 2023-10-09T05:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 361.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 361 ms au 2023-10-09T05:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-09T05:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 81.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 81°C au 2023-10-09T05:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 89% au 2023-10-09T05:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 91% au 2023-10-09T05:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 12.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 12 au 2023-10-09T05:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 90% au 2023-10-09T10:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 377.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 377 ms au 2023-10-09T10:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-09T10:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 81.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 81°C au 2023-10-09T10:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 90% au 2023-10-09T10:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 94% au 2023-10-09T10:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-09T10:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 94% au 2023-10-09T15:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 353.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 353 ms au 2023-10-09T15:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-09T15:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 89.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 89°C au 2023-10-09T15:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 95% au 2023-10-09T15:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-09T15:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 95% au 2023-10-09T20:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 363.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 363 ms au 2023-10-09T20:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-09T20:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 83.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 83°C au 2023-10-09T20:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 91% au 2023-10-09T20:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 96.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 96% au 2023-10-09T20:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-09T20:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 97.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 97% au 2023-10-10T01:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 336.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 336 ms au 2023-10-10T01:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-10T01:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 87°C au 2023-10-10T01:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 88.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 88% au 2023-10-10T01:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 96.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 96% au 2023-10-10T01:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 11.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 11 au 2023-10-10T01:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 98% au 2023-10-10T06:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 320.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 320 ms au 2023-10-10T06:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-10T06:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 85.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 85°C au 2023-10-10T06:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 89% au 2023-10-10T06:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 96.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 96% au 2023-10-10T06:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 12.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 12 au 2023-10-10T06:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 99.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 99% au 2023-10-10T11:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 383.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 383 ms au 2023-10-10T11:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-10T11:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 83.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 83°C au 2023-10-10T11:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 86.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 86% au 2023-10-10T11:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 94% au 2023-10-10T11:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 12.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 12 au 2023-10-10T11:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 90% au 2023-10-10T16:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 335.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 335 ms au 2023-10-10T16:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-10T16:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 86.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 86°C au 2023-10-10T16:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 94% au 2023-10-10T16:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 11.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 11 au 2023-10-10T16:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 98.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 98% au 2023-10-10T21:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 315.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 315 ms au 2023-10-10T21:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-10T21:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 86.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 86°C au 2023-10-10T21:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 92% au 2023-10-10T21:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 95% au 2023-10-10T21:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 11.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 11 au 2023-10-10T21:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 93.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 93% au 2023-10-11T02:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 343.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 343 ms au 2023-10-11T02:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-11T02:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 83.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 83°C au 2023-10-11T02:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 88.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 88% au 2023-10-11T02:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 97.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 97% au 2023-10-11T02:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 13.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 13 au 2023-10-11T02:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 91.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 91% au 2023-10-11T07:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 324.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 324 ms au 2023-10-11T07:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.12,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.12 au 2023-10-11T07:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 87.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 87°C au 2023-10-11T07:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 89.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 89% au 2023-10-11T07:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 11.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 11 au 2023-10-11T07:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 94% au 2023-10-11T12:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 377.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 377 ms au 2023-10-11T12:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.13,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.13 au 2023-10-11T12:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 83.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 83°C au 2023-10-11T12:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 90.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 90% au 2023-10-11T12:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 92.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 92% au 2023-10-11T12:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "io_wait",
+      "value": 11.0,
+      "threshold": 10.0,
+      "severity": "low",
+      "description": "io_wait 11 au 2023-10-11T12:00:00Z (seuil 10)"
+    },
+    {
+      "metric": "cpu_usage",
+      "value": 95.0,
+      "threshold": 85.0,
+      "severity": "high",
+      "description": "CPU à 95% au 2023-10-11T17:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "latency_ms",
+      "value": 347.0,
+      "threshold": 300.0,
+      "severity": "high",
+      "description": "Latence 347 ms au 2023-10-11T17:00:00Z (seuil 300 ms)"
+    },
+    {
+      "metric": "error_rate",
+      "value": 0.11,
+      "threshold": 0.08,
+      "severity": "high",
+      "description": "Taux d'erreur 0.11 au 2023-10-11T17:00:00Z (seuil 0.08)"
+    },
+    {
+      "metric": "temperature_celsius",
+      "value": 83.0,
+      "threshold": 80.0,
+      "severity": "medium",
+      "description": "Température 83°C au 2023-10-11T17:00:00Z (seuil 80°C)"
+    },
+    {
+      "metric": "memory_usage",
+      "value": 86.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Mémoire 86% au 2023-10-11T17:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "disk_usage",
+      "value": 94.0,
+      "threshold": 85.0,
+      "severity": "low",
+      "description": "Disque 94% au 2023-10-11T17:00:00Z (seuil 85%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-01T12:00:00Z au 2023-10-01T12:00:00Z (1 échantillons, CPU moyen 93%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 6.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-01T15:00:00Z au 2023-10-01T17:30:00Z (6 échantillons, CPU moyen 74%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 6.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-01T15:00:00Z au 2023-10-01T17:30:00Z (6 échantillons, CPU moyen 74%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-01T19:00:00Z au 2023-10-01T19:00:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-01T19:30:00Z au 2023-10-01T19:30:00Z (1 échantillons, CPU moyen 67%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-01T22:00:00Z au 2023-10-01T22:00:00Z (1 échantillons, CPU moyen 98%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-01T22:30:00Z au 2023-10-01T22:30:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-02T02:00:00Z au 2023-10-02T02:00:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-02T03:00:00Z au 2023-10-02T03:00:00Z (1 échantillons, CPU moyen 93%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-02T05:30:00Z au 2023-10-02T05:30:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-02T08:00:00Z au 2023-10-02T08:00:00Z (1 échantillons, CPU moyen 97%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-02T09:00:00Z au 2023-10-02T09:00:00Z (1 échantillons, CPU moyen 61%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-02T10:30:00Z au 2023-10-02T10:30:00Z (1 échantillons, CPU moyen 67%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-02T12:30:00Z au 2023-10-02T12:30:00Z (1 échantillons, CPU moyen 57%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-02T13:00:00Z au 2023-10-02T13:00:00Z (1 échantillons, CPU moyen 99%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-02T16:00:00Z au 2023-10-02T16:00:00Z (1 échantillons, CPU moyen 57%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-02T18:00:00Z au 2023-10-02T18:00:00Z (1 échantillons, CPU moyen 98%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-02T19:30:00Z au 2023-10-02T19:30:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-02T23:00:00Z au 2023-10-02T23:00:00Z (1 échantillons, CPU moyen 97%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-03T01:30:00Z au 2023-10-03T01:30:00Z (1 échantillons, CPU moyen 73%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-03T02:30:00Z au 2023-10-03T02:30:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-03T04:00:00Z au 2023-10-03T04:00:00Z (1 échantillons, CPU moyen 93%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-03T06:00:00Z au 2023-10-03T06:00:00Z (1 échantillons, CPU moyen 61%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-03T09:00:00Z au 2023-10-03T09:00:00Z (1 échantillons, CPU moyen 93%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-03T09:30:00Z au 2023-10-03T09:30:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-03T13:00:00Z au 2023-10-03T13:00:00Z (1 échantillons, CPU moyen 61%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-03T14:00:00Z au 2023-10-03T14:00:00Z (1 échantillons, CPU moyen 91%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-03T16:30:00Z au 2023-10-03T16:30:00Z (1 échantillons, CPU moyen 70%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-03T19:00:00Z au 2023-10-03T19:00:00Z (1 échantillons, CPU moyen 98%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-03T20:00:00Z au 2023-10-03T20:00:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-03T23:30:00Z au 2023-10-03T23:30:00Z (1 échantillons, CPU moyen 58%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-04T00:00:00Z au 2023-10-04T00:00:00Z (1 échantillons, CPU moyen 93%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-04T03:00:00Z au 2023-10-04T03:00:00Z (1 échantillons, CPU moyen 58%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-04T05:00:00Z au 2023-10-04T05:00:00Z (1 échantillons, CPU moyen 94%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-04T06:30:00Z au 2023-10-04T06:30:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-04T07:30:00Z au 2023-10-04T07:30:00Z (1 échantillons, CPU moyen 71%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-04T10:00:00Z au 2023-10-04T10:00:00Z (1 échantillons, CPU moyen 99%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-04T13:30:00Z au 2023-10-04T13:30:00Z (1 échantillons, CPU moyen 58%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-04T15:00:00Z au 2023-10-04T15:00:00Z (1 échantillons, CPU moyen 98%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-04T17:00:00Z au 2023-10-04T17:00:00Z (1 échantillons, CPU moyen 58%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-04T20:00:00Z au 2023-10-04T20:00:00Z (1 échantillons, CPU moyen 93%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-04T20:30:00Z au 2023-10-04T20:30:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-04T22:30:00Z au 2023-10-04T22:30:00Z (1 échantillons, CPU moyen 68%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-05T00:00:00Z au 2023-10-05T00:00:00Z (1 échantillons, CPU moyen 58%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-05T01:00:00Z au 2023-10-05T01:00:00Z (1 échantillons, CPU moyen 95%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-05T03:30:00Z au 2023-10-05T03:30:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-05T06:00:00Z au 2023-10-05T06:00:00Z (1 échantillons, CPU moyen 97%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-05T07:00:00Z au 2023-10-05T07:00:00Z (1 échantillons, CPU moyen 61%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-05T10:30:00Z au 2023-10-05T10:30:00Z (1 échantillons, CPU moyen 63%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-05T11:00:00Z au 2023-10-05T11:00:00Z (1 échantillons, CPU moyen 94%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-05T13:30:00Z au 2023-10-05T13:30:00Z (1 échantillons, CPU moyen 70%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-05T14:00:00Z au 2023-10-05T14:00:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-05T16:00:00Z au 2023-10-05T16:00:00Z (1 échantillons, CPU moyen 95%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-05T17:30:00Z au 2023-10-05T17:30:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-05T21:00:00Z au 2023-10-05T21:00:00Z (1 échantillons, CPU moyen 93%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-06T00:30:00Z au 2023-10-06T00:30:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-06T02:00:00Z au 2023-10-06T02:00:00Z (1 échantillons, CPU moyen 94%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-06T04:00:00Z au 2023-10-06T04:00:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-06T04:30:00Z au 2023-10-06T04:30:00Z (1 échantillons, CPU moyen 73%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-06T07:00:00Z au 2023-10-06T07:00:00Z (1 échantillons, CPU moyen 95%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-06T07:30:00Z au 2023-10-06T07:30:00Z (1 échantillons, CPU moyen 61%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-06T11:00:00Z au 2023-10-06T11:00:00Z (1 échantillons, CPU moyen 58%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-06T12:00:00Z au 2023-10-06T12:00:00Z (1 échantillons, CPU moyen 92%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-06T14:30:00Z au 2023-10-06T14:30:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-06T17:00:00Z au 2023-10-06T17:00:00Z (1 échantillons, CPU moyen 94%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-06T18:00:00Z au 2023-10-06T18:00:00Z (1 échantillons, CPU moyen 63%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-06T19:30:00Z au 2023-10-06T19:30:00Z (1 échantillons, CPU moyen 72%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-06T21:30:00Z au 2023-10-06T21:30:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-06T22:00:00Z au 2023-10-06T22:00:00Z (1 échantillons, CPU moyen 98%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-07T01:00:00Z au 2023-10-07T01:00:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-07T03:00:00Z au 2023-10-07T03:00:00Z (1 échantillons, CPU moyen 98%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-07T04:30:00Z au 2023-10-07T04:30:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-07T08:00:00Z au 2023-10-07T08:00:00Z (1 échantillons, CPU moyen 91%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-07T10:30:00Z au 2023-10-07T10:30:00Z (1 échantillons, CPU moyen 72%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-07T11:30:00Z au 2023-10-07T11:30:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-07T13:00:00Z au 2023-10-07T13:00:00Z (1 échantillons, CPU moyen 93%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 6.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-07T15:00:00Z au 2023-10-07T17:30:00Z (6 échantillons, CPU moyen 76%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 7.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-07T15:00:00Z au 2023-10-07T18:00:00Z (7 échantillons, CPU moyen 78%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-07T18:30:00Z au 2023-10-07T18:30:00Z (1 échantillons, CPU moyen 61%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-07T22:00:00Z au 2023-10-07T22:00:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-07T23:00:00Z au 2023-10-07T23:00:00Z (1 échantillons, CPU moyen 96%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-08T01:30:00Z au 2023-10-08T01:30:00Z (1 échantillons, CPU moyen 67%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-08T04:00:00Z au 2023-10-08T04:00:00Z (1 échantillons, CPU moyen 96%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-08T05:00:00Z au 2023-10-08T05:00:00Z (1 échantillons, CPU moyen 61%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-08T08:30:00Z au 2023-10-08T08:30:00Z (1 échantillons, CPU moyen 57%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-08T09:00:00Z au 2023-10-08T09:00:00Z (1 échantillons, CPU moyen 92%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-08T12:00:00Z au 2023-10-08T12:00:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-08T14:00:00Z au 2023-10-08T14:00:00Z (1 échantillons, CPU moyen 95%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 6.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-08T15:00:00Z au 2023-10-08T17:30:00Z (6 échantillons, CPU moyen 74%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 6.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-08T15:00:00Z au 2023-10-08T17:30:00Z (6 échantillons, CPU moyen 74%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-08T19:00:00Z au 2023-10-08T19:00:00Z (1 échantillons, CPU moyen 96%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-08T22:30:00Z au 2023-10-08T22:30:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-09T00:00:00Z au 2023-10-09T00:00:00Z (1 échantillons, CPU moyen 96%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-09T02:00:00Z au 2023-10-09T02:00:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-09T05:00:00Z au 2023-10-09T05:00:00Z (1 échantillons, CPU moyen 93%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-09T05:30:00Z au 2023-10-09T05:30:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-09T07:30:00Z au 2023-10-09T07:30:00Z (1 échantillons, CPU moyen 69%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-09T09:00:00Z au 2023-10-09T09:00:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-09T10:00:00Z au 2023-10-09T10:00:00Z (1 échantillons, CPU moyen 90%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-09T12:30:00Z au 2023-10-09T12:30:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-09T15:00:00Z au 2023-10-09T15:00:00Z (1 échantillons, CPU moyen 94%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-09T16:00:00Z au 2023-10-09T16:00:00Z (1 échantillons, CPU moyen 57%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-09T19:30:00Z au 2023-10-09T19:30:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-09T20:00:00Z au 2023-10-09T20:00:00Z (1 échantillons, CPU moyen 95%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-09T22:30:00Z au 2023-10-09T22:30:00Z (1 échantillons, CPU moyen 68%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-09T23:00:00Z au 2023-10-09T23:00:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-10T01:00:00Z au 2023-10-10T01:00:00Z (1 échantillons, CPU moyen 97%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-10T02:30:00Z au 2023-10-10T02:30:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-10T06:00:00Z au 2023-10-10T06:00:00Z (1 échantillons, CPU moyen 98%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-10T09:30:00Z au 2023-10-10T09:30:00Z (1 échantillons, CPU moyen 61%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-10T11:00:00Z au 2023-10-10T11:00:00Z (1 échantillons, CPU moyen 99%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-10T13:00:00Z au 2023-10-10T13:00:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-10T13:30:00Z au 2023-10-10T13:30:00Z (1 échantillons, CPU moyen 71%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-10T16:00:00Z au 2023-10-10T16:00:00Z (1 échantillons, CPU moyen 90%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-10T16:30:00Z au 2023-10-10T16:30:00Z (1 échantillons, CPU moyen 61%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-10T20:00:00Z au 2023-10-10T20:00:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-10T21:00:00Z au 2023-10-10T21:00:00Z (1 échantillons, CPU moyen 98%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-10T23:30:00Z au 2023-10-10T23:30:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-11T02:00:00Z au 2023-10-11T02:00:00Z (1 échantillons, CPU moyen 93%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-11T03:00:00Z au 2023-10-11T03:00:00Z (1 échantillons, CPU moyen 59%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-11T04:30:00Z au 2023-10-11T04:30:00Z (1 échantillons, CPU moyen 67%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-11T06:30:00Z au 2023-10-11T06:30:00Z (1 échantillons, CPU moyen 60%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-11T07:00:00Z au 2023-10-11T07:00:00Z (1 échantillons, CPU moyen 91%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-11T10:00:00Z au 2023-10-11T10:00:00Z (1 échantillons, CPU moyen 62%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-11T12:00:00Z au 2023-10-11T12:00:00Z (1 échantillons, CPU moyen 94%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-11T13:30:00Z au 2023-10-11T13:30:00Z (1 échantillons, CPU moyen 57%)"
+    },
+    {
+      "metric": "service_status.api_gateway",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service api_gateway 'degraded' du 2023-10-11T17:00:00Z au 2023-10-11T17:00:00Z (1 échantillons, CPU moyen 95%)"
+    },
+    {
+      "metric": "service_status.cache",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "medium",
+      "description": "Service cache 'degraded' du 2023-10-11T19:30:00Z au 2023-10-11T19:30:00Z (1 échantillons, CPU moyen 72%)"
+    },
+    {
+      "metric": "service_status.database",
+      "value": 1.0,
+      "threshold": 1.0,
+      "severity": "high",
+      "description": "Service database 'offline' du 2023-10-11T20:30:00Z au 2023-10-11T20:30:00Z (1 échantillons, CPU moyen 57%)"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "investigate-recurring-cpu-spikes",
+      "action": "Investiguer le pattern de charge récurrent (49 pics CPU sur la période, max 99%) : identifier le scheduling (batch/cron) à l'origine et décaler ou lisser les traitements",
+      "target": "serveur",
+      "parameters": {
+        "spike_count": 49,
+        "observed_max": 99.0,
+        "threshold": 85.0
+      },
+      "benefit_estimate": "Suppression des pics de latence et des erreurs associées"
+    },
+    {
+      "id": "api-gateway-autoscaling",
+      "action": "Mettre en place l'autoscaling / la répartition de charge sur l'API gateway et réduire la latence (cache des réponses, CDN)",
+      "target": "api_gateway",
+      "parameters": {
+        "occurrences": 49,
+        "max_latency_ms": 384.0
+      },
+      "benefit_estimate": "Latence ramenée sous 150 ms même en pic"
+    },
+    {
+      "id": "memory-headroom",
+      "action": "Auditer l'usage mémoire : 39 dépassement(s) observés — vérifier les fuites (processus à croissance continue) et le headroom",
+      "target": "serveur",
+      "parameters": {
+        "occurrences": 39,
+        "max_percent": 92.0
+      },
+      "benefit_estimate": "Prévention de l'OOM kill et de la dégradation en pic"
+    },
+    {
+      "id": "disk-capacity-planning",
+      "action": "Planifier la capacité disque : 49 relevé(s) au-delà du seuil, max mesuré à 97% — purger/archiver avant saturation",
+      "target": "serveur",
+      "parameters": {
+        "occurrences": 49,
+        "max_percent": 97.0
+      },
+      "benefit_estimate": "Évite la panne sèche de service liée au disque plein"
+    },
+    {
+      "id": "io-subsystem-investigation",
+      "action": "Investiguer le sous-système disque : 38 relevé(s) d'io_wait élevé, corrélés aux pics de charge — vérifier IOPS, répartition des disques (RAID) et cache disque",
+      "target": "serveur",
+      "parameters": {
+        "occurrences": 38,
+        "max_percent": 14.0
+      },
+      "benefit_estimate": "Réduction de l'attente I/O pendant les pics"
+    },
+    {
+      "id": "alerting-error-rate",
+      "action": "Ajouter une alerte sur error_rate > 0.08 avec corrélation aux déploiements",
+      "target": "monitoring",
+      "parameters": {
+        "occurrences": 49,
+        "max": 0.13
+      },
+      "benefit_estimate": "Détection précoce des phases de surcharge"
+    },
+    {
+      "id": "thermal-headroom",
+      "action": "Vérifier le refroidissement et la capacité thermique (températures > 80°C pendant les pics)",
+      "target": "serveur",
+      "parameters": {
+        "occurrences": 49,
+        "max_celsius": 89.0
+      },
+      "benefit_estimate": "Prévention de la throttling CPU et de l'usure matériel"
+    },
+    {
+      "id": "api_gateway-stability",
+      "action": "Analyser la stabilité du service api_gateway : 51 fenêtre(s) de dégradation observées, dont certaines à charge moyenne — investiguer capacité et éviction",
+      "target": "api_gateway",
+      "parameters": {
+        "windows": 51
+      },
+      "benefit_estimate": "Disponibilité du service en continu"
+    },
+    {
+      "id": "cache-stability",
+      "action": "Analyser la stabilité du service cache : 19 fenêtre(s) de dégradation observées, dont certaines à charge moyenne — investiguer capacité et éviction",
+      "target": "cache",
+      "parameters": {
+        "windows": 19
+      },
+      "benefit_estimate": "Disponibilité du service en continu"
+    },
+    {
+      "id": "database-stability",
+      "action": "Vérifier la stabilité de la database : 59 interruption(s) observée(s) à charge NORMALE (sans corrélation avec les pics CPU) — investiguer côté DB (maintenance, timeouts, redémarrages), pas un problème de capacité",
+      "target": "database",
+      "parameters": {
+        "interruptions": 59
+      },
+      "benefit_estimate": "Suppression des micro-coupures base de données"
+    }
+  ],
+  "service_status_summary": {
+    "online": [
+      "api_gateway",
+      "cache",
+      "database"
+    ],
+    "degraded": [
+      "api_gateway",
+      "cache"
+    ],
+    "offline": [
+      "database"
+    ]
+  }
+}
